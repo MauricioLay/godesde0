@@ -12,4 +12,7 @@ func main() {
 	variables.Nombre = "otro nombre"
 	fmt.Println(variables.Nombre)
 
+	estado, texto := variables.ConviertoaTexto(12345)
+	fmt.Println(estado, texto)
+
 }
